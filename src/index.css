@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #b4c0c16e;
 }
 
 code {
@@ -12,10 +13,13 @@ code {
     monospace;
 }
 
-button {
+.container .header {
   position: absolute;
-  top: 40%;
-  left: 45%;
+  left: 40%;
+}
+.container .button {
+  position: absolute;
+
   width: 200px;
   height: 50px;
   background: #ef7917;
@@ -23,9 +27,35 @@ button {
   color: #fff;
   font-size: 20px;
   padding: 9px;
-  /* border: none;
-  outline: none; */
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  box-shadow: 10px 10px 10px black;
 }
-button:hover {
+.button:hover {
   cursor: pointer;
+}
+.container .first {
+  top: 20%;
+  left: 45%;
+}
+.container .second {
+  top: 40%;
+  left: 45%;
+}
+
+.container .third {
+  top: 60%;
+  left: 45%;
+}
+
+.container .forth {
+  top: 80%;
+  left: 45%;
+}
+
+.container .tooltip {
+  height: 30px;
+  font-size: large;
+  color: #ef7917;
 }
