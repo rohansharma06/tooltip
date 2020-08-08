@@ -2,7 +2,7 @@
   "name": "tooltip",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/rohansharma06/tooltip",
+  "homepage": "https://rohansharma06.github.io/tooltip/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
